@@ -1,0 +1,23 @@
+first = "Ross"
+import math
+last = "Novick"
+age = 50
+print first, last, age
+sideA = 12.55
+sideB = 17.85
+sideC = 0.0
+x = (sideA * sideA) + (sideB * sideB)
+sideC = math.sqrt(x)
+print sideC
+
+operand1 = 95
+operand2 = 64.5
+
+print operand1, " + ", operand2, " = ", (operand1 + operand2)
+print operand1, " - ", operand2, " = ", (operand1 - operand2)
+print operand1, " * ", operand2, " = ", (operand1 * operand2)
+print operand1, " / ", operand2, " = ", (operand1 / operand2)
+print operand1, " % ", operand2, " = ", (operand1 % operand2)
+# This solution works best because you only need to change
+# the value of the declared variables to change the results,
+# no code needs to be rewritten.
