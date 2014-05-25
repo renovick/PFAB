@@ -1,0 +1,27 @@
+#!/usr/bin/python
+#Programming of Absolute Beginners Homework 2A by Ross Novick
+
+import sys
+
+test1 = int(sys.argv[1])
+test2 = int(sys.argv[2])
+test3 = int(sys.argv[3])
+test4 = int(sys.argv[4])
+
+aveScore = (test1 + test2 + test3 + test4) / 4
+
+print "The average score is: ", aveScore
+
+grade = ""
+if aveScore >= 90:
+    grade = "A"
+elif aveScore >= 80:
+    grade = "B"
+elif aveScore >= 70:
+    grade = "C"
+elif aveScore >= 60:
+    grade = "D"
+else:
+    grade = "F"
+    
+print "Letter Grade: ", grade
