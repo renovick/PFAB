@@ -5,7 +5,7 @@ import sys
 
 price = input("Enter the cost of the item: $")
 tax = input("Enter the sales tax (ie: 0.XX): ")
-print "The cost is: $", price
-print "The tax is: ", tax
+print ("The cost is: $"), price
+print ("The tax is: "), tax
 totalCost = price + (price * tax)
-print "The total cost os the item is: $", totalCost
+print ("The total cost os the item is: $"), totalCost

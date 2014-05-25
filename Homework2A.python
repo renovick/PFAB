@@ -10,7 +10,7 @@ test4 = int(sys.argv[4])
 
 aveScore = (test1 + test2 + test3 + test4) / 4
 
-print "The average score is: ", aveScore
+print ("The average score is: "), aveScore
 
 grade = ""
 if aveScore >= 90:
