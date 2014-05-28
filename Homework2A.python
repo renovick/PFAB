@@ -24,4 +24,4 @@ elif aveScore >= 60:
 else:
     grade = "F"
     
-print "Letter Grade: ", grade
+print ("Letter Grade: "), grade
